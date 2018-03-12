@@ -8,8 +8,8 @@ Create Date: 2018-03-12 11:02:52.379938
 from alembic import op
 import sqlalchemy as sa
 from faker import Faker
-from models import Customer, Project, Task
-from app import create_app
+from clockit_api.models import Customer, Project, Task
+from clockit_api.app import create_app
 from flask_sqlalchemy import SQLAlchemy
 
 

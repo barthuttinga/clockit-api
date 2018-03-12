@@ -8,7 +8,7 @@ db = SQLAlchemy()
 ma = Marshmallow()
 
 
-class AddUpdateDelete():   
+class AddUpdateDelete():
     def add(self, resource):
         db.session.add(resource)
         return db.session.commit()

@@ -1,8 +1,8 @@
 from flask import Blueprint, request, jsonify, make_response
 from flask_restful import Api, Resource
-from models import db, Customer, CustomerSchema, Project, ProjectSchema, Task, TaskSchema
+from .models import db, Customer, CustomerSchema, Project, ProjectSchema, Task, TaskSchema
 from sqlalchemy.exc import SQLAlchemyError
-import status
+from . import status
 
 
 api_bp = Blueprint('api', __name__)

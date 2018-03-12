@@ -1,4 +1,4 @@
-from app import create_app
+from clockit_api.app import create_app
 
 
 app = create_app('config')
