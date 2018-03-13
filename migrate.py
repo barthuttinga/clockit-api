@@ -1,6 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
-from models import db
+from clockit_api.models import db
 from run import app
 
 

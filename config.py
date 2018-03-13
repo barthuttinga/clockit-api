@@ -8,5 +8,5 @@ PORT = 5000
 HOST = "127.0.0.1"
 SQLALCHEMY_ECHO = False
 SQLALCHEMY_TRACK_MODIFICATIONS = True
-SQLALCHEMY_DATABASE_URI = 'sqlite:///clockit.db'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///{0}/clockit.db'.format(basedir)
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
