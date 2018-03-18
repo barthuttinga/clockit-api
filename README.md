@@ -2,11 +2,17 @@
 REST API for ClockIt time registration app.
 
 ## Installation
-- Run `git clone git@github.com:barthuttinga/clockit-api.git` to clone the project
-- Run `cd clockit-api` to cd into the project directory
-- Run `pip install -r requirements.txt` to install dependencies
-- Run `python migrate.py db upgrade` to create the SQLite-database schema populated with fake data
-- Run `python run.py` to start the app on [http://127.0.0.1:5000/api/](http://127.0.0.1:5000/api/)
+- Run `git clone git@github.com:barthuttinga/clockit-api.git` to clone the
+project and cd into the project directory
+- Run `pipenv install --dev` to create a virtual environment and install dependencies
+- Run `pipenv shell` to enter a shell within the virtual environment
+- Run `export FLASK_APP=clockit_api.py` and `export FLASK_DEBUG=1` to point
+Flask to the app and enabled debugging mode
+- Run `flask db upgrade` create the SQLite-database and/or upgrade the schema
+- Run `python load_fixtures.py` if you want to populate the database with some
+data fixtures
+- Run `flask run` to start the app on
+[http://127.0.0.1:5000/api/](http://127.0.0.1:5000/api/)
 
 ## Resource endpoints
 Method | URI | Description
