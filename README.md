@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/barthuttinga/clockit-api.svg?branch=master)](https://travis-ci.org/barthuttinga/clockit-api)
+
 # ClockIt API
 REST API for ClockIt time registration app.
 
