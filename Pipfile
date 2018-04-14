@@ -7,20 +7,21 @@ name = "pypi"
 
 [packages]
 
-flask = "*"
+Flask = "*"
 flask-marshmallow = "*"
-flask-migrate = "*"
-flask-restful = "*"
-flask-script = "*"
-flask-sqlalchemy = "*"
-marshmallow = "*"
+Flask-Migrate = "*"
+Flask-RESTful = "*"
+Flask-SQLAlchemy = "*"
+Flask-JWT = "*"
+Flask-Cors = "*"
 marshmallow-sqlalchemy = "*"
-text-unidecode = "*"
 
 
 [dev-packages]
 
-faker = "*"
+pytest = "*"
+pytest-cov = "*"
+Faker = "*"
 
 
 [requires]

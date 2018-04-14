@@ -100,5 +100,12 @@ ENV/
 # mypy
 .mypy_cache/
 
-/.idea/
-/clockit.db
+# PyCharm
+.idea/
+
+# PyTest
+.pytest_cache/
+
+# Databases
+clockit.db
+clockit_test.db
