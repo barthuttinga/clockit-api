@@ -1,7 +1,7 @@
 import json
 
-from app.models import Customer, Project, Task
-from app.schemas import customer_schema, project_schema, task_schema
+from clockit_api.models import Customer, Project, Task
+from clockit_api.schemas import customer_schema, project_schema, task_schema
 from . import AppTestCase
 
 

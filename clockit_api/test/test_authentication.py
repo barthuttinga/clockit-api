@@ -2,7 +2,7 @@ import json
 
 from flask import url_for
 
-from app.status import *
+from clockit_api.status import *
 from . import AppTestCase
 
 

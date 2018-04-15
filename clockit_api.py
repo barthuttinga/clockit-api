@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from app import create_app, db
+from clockit_api import create_app, db
 from config import Config
 
 app = create_app(Config)

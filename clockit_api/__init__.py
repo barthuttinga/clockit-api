@@ -7,7 +7,7 @@ from .security import jwt
 
 
 def create_app(configuration):
-    app = Flask('app')
+    app = Flask('clockit_api')
     app.config.from_object(configuration)
 
     db.init_app(app)
